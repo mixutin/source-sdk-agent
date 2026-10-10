@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "source-sdk-agent",
+  "version": "0.3.0",
+  "description": "Local Source SDK 2013 project, C++ build, map and mod automation.",
+  "author": {
+    "name": "mixutin"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Source SDK Agent",
+        "shortDescription": "Local Source mod automation",
+        "longDescription": "Forty local Source SDK tools for C++ projects, map and asset compilation, private server tests, pipeline jobs and local packaging. External runtimes and compilers are installed separately.",
+        "developerName": "mixutin",
+        "category": "Developer Tools",
+        "defaultPrompt": "Help me build a Source SDK mod on my Ubuntu computer."
+      }
+    }
+  }
+}
